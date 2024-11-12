@@ -1,0 +1,35 @@
+
+/* Pseudo element Practice */
+h2::before {
+    content: "Pseudo";
+    background-color: orange;
+}
+
+h2::after {
+    content: "Practice";
+    background-color: skyblue;
+}
+
+
+
+a {
+    display:block;
+    text-decoration: none;
+}
+
+
+/* Pseudo class Practice */
+a:active {
+    color: red;
+    background-color: blue;
+}
+
+a:visited {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.502);
+}
+
+a:hover {
+    color: orange;
+    background-color: deeppink;
+}
