@@ -1,4 +1,3 @@
-
 /* Pseudo element Practice */
 h2::before {
     content: "Pseudo";
